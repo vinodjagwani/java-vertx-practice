@@ -1,0 +1,9 @@
+{
+  "database": {
+    "type": "postgres",
+    "url": "jdbc:postgresql://prod-db/airline",
+    "driver": "org.postgresql.Driver",
+    "user": "prod_user",
+    "password": "${DB_PASSWORD}"
+  }
+}
